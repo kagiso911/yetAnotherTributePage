@@ -1,0 +1,50 @@
+/* GENERAL */
+:root{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+        width: 100vw;
+    height: 100vh;
+    background: #111;
+}
+
+.zoomMeeting{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.thankfulStudent{
+    height: 20rem;
+    background: #1a1a1a;
+    margin: .5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: transform .2s;
+}.thankfulStudent:hover{
+    transform: scale(1.03);
+}
+
+.thankfulStudent p{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.flo{
+    background: url("/images/flo.jpg") center / cover no-repeat;
+}
