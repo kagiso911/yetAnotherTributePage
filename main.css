@@ -20,6 +20,14 @@ body{
 }
 
 /* HEADER */
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background: #111;
+}
+
 h1{
     color: #fff;
     text-align: center;
@@ -29,7 +37,8 @@ h1{
 /* MAIN grid */
 .zoomMeeting{
     padding: 1rem;
-    
+    margin: 26vmin 0;
+
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -145,7 +154,51 @@ h1{
 
 /* FOOTER */
 footer{
-    height: 5.2rem;
+    position: fixed;
+    bottom: 0;
+
+    /* height: 5vmin; */
     width: 100%;
-    background: url("/images/zoom.png") center / contain no-repeat;
+    padding: 0 1rem;
+    background: #212325;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.bar:nth-of-type(2){
+    margin-right: auto;
+}
+
+.bar{
+    color: #aaabac;
+    padding: .5rem 2rem;
+    transition: all .4s;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+}.bar:hover{
+    color: #23d959;
+}
+
+i{
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+input{
+    margin-left: auto;
+    padding: .5rem 1rem;
+    color: #fff;
+    font-weight: 700;
+    background: #f00;
+    border: 0;
+    border-radius: .5rem;
+    transition: all .5s;
+}input:hover{
+    color: #f00;
+    background: #000;
 }
