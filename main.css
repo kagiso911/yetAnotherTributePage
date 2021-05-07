@@ -32,13 +32,13 @@ h1{
     color: #fff;
     font-size: 5rem;
     text-align: center;
-    margin: 5rem 0;
+    margin: 2rem 0;
 }
 
 /* MAIN grid */
 .zoomMeeting{
     padding: 1rem;
-    margin: 26vmin 0;
+    margin: 10rem 0 26vmin;
     cursor: pointer;
 
     display: grid;
