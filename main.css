@@ -69,8 +69,76 @@ h1{
 }
 
 /* STUDENTS individual */
+.alcione{
+    background: url("/images/alcione.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.andrea{
+    background: url("/images/andrea.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.andrew{
+    background: url("/images/andrew.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.evgira{
+    background: url("/images/evgira.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.fahd{
+    background: url("/images/fahd.jpg") center / cover no-repeat, #1a1a1a;
+}
+
 .flo{
     background: url("/images/flo.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.kany{
+    background: url("/images/kany.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.lorenzo{
+    background: url("/images/lorenzo.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.maroua{
+    background: url("/images/maroua.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.natalia{
+    background: url("/images/natalia.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.pavel{
+    background: url("/images/pavel.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.piet{
+    background: url("/images/piet.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.susan{
+    background: url("/images/susan.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.tobias{
+    background: url("/images/tobias.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.ugur{
+    background: url("/images/ugur.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.veronica{
+    background: url("/images/veronica.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.viviana{
+    background: url("/images/viviana.jpg") center / cover no-repeat, #1a1a1a;
+}
+
+.zhino{
+    background: url("/images/zhino.jpg") center / cover no-repeat, #1a1a1a;
 }
 
 /* FOOTER */
