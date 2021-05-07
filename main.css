@@ -15,20 +15,28 @@
 body{
     font-size: 1.6rem;
     font-family: 'Open Sans', sans-serif;
-        width: 100vw;
-    height: 100vh;
+
     background: #111;
 }
 
+/* HEADER */
+h1{
+    color: #fff;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+/* MAIN */
 .zoomMeeting{
     display: grid;
+    gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 
 .thankfulStudent{
+    position: relative;
     height: 20rem;
     background: #1a1a1a;
-    margin: .5rem;
 
     display: flex;
     justify-content: center;
@@ -39,12 +47,31 @@ body{
     transform: scale(1.03);
 }
 
-.thankfulStudent p{
+.camOff{
     color: #fff;
     font-size: 3rem;
     font-weight: 700;
 }
 
+.camOn{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    padding: 0.2rem;
+    border-radius: .2rem;
+    background: #fff3;
+}
+
 .flo{
     background: url("/images/flo.jpg") center / cover no-repeat;
+}
+
+footer{
+    height: 5.2rem;
+    width: 100%;
+    background: url("/images/zoom.png") center / contain no-repeat;
 }
