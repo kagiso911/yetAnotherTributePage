@@ -13,10 +13,10 @@ WhatToDo:
 
 ## Comments:
 
-- zoom bar needs to be coded (it's just an image right now)
 - display names need adjustment (want to add a toggle switch for images)
 - ...
 - ...
+-
 -
 -
 -
