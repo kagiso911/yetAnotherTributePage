@@ -1,7 +1,10 @@
 # Ben's Farewell Page
+
+![index](/images/index.png)
+
 WhatToDo:
 - fork this `repo` to your `github-account`
-- add an image (`"yourName.jpg"`) to the `images` folder
+- add an portrait image (`"yourName.jpg"`) to the `images` folder
 - edit your files (`"yourName.html"` and `"yourName.css"`)
 - put your `ideas` etc. in the `comments` right here in this file...
 
