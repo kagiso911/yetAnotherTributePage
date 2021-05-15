@@ -140,9 +140,13 @@ footer {
 
 @media (min-width: 481px) and (max-width: 1099px) {
     .card-image img {
-        width: 35%;
+        width: 50%;
         margin-top: 4rem;
         margin-bottom: 2rem;
+    }
+
+    .card-greeting {
+        margin-top: 6rem;
     }
 }
 
